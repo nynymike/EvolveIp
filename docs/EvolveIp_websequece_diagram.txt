@@ -1,0 +1,22 @@
+title Evolve IP Inbound SAML
+User->Browser: Click on page
+Browser->SP: Request page
+SP->Browser: Redirect
+Browser->Gluu IDP: SAML Request
+Gluu IDP->Gluu IDP: Run Authn Interception Script
+Gluu IDP->Browser: Redirect
+Browser->Passport: 
+Passport->Browser: Redirect
+Browser->ADFS:
+ADFS->Browser: Login Page
+User->ADFS: Authenticate
+ADFS->ADFS: Validate creds
+ADFS->Browser: SALM Response
+Browser->Passport: 
+Passport->Passport: Attribute Mapping
+Passport->Gluu IDP: Interception script response
+Gluu IDP->Gluu IDP: Dynamic enrollment (add to LDAP)
+Gluu IDP->Token Endpoint: Request Token Endpoint
+Token Endpoint->Gluu IDP: 
+Gluu IDP->Browser: Redirect
+Browser->Application: Get Dashboard with token
