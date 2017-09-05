@@ -93,5 +93,5 @@ Step 3: Successfully login in gluu server and standing at passport to redirect u
 
 We have a list of Idp’s data as Json in Gluu Server as "saml_proxy" strategy. I’m able to get this data in passportjs. 
 
-I need data/parameter in interception script  or passport to redirect the user to correct IDP
-Same thing once we stand on passport with the adfs data in json. How I would redirect user from where the request was initiated. 
+1) Need data/parameter in interception script  or passport to redirect the user to correct IDP
+2) Once we stand on passport with the adfs data(json) after successfully loggedin in ADFS. How I would redirect user from where the request was originally initiated.
