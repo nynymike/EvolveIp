@@ -65,8 +65,13 @@ https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/auth/saml_p
 ## Testing:
 
 Step 1: Standing on SP with acr_value=saml_proxy
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/1.png?raw=true)
+
 Step 2: Login in Gluu Server
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/2.png?raw=true)
+
 Step 3: Successfully login in gluu server and standing at passport to redirect user to ADFS IDP
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/2.png?raw=true)
 
 
 
