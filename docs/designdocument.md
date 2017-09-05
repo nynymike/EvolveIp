@@ -71,7 +71,7 @@ Step 2: Login in Gluu Server
 ![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/2.png?raw=true)
 
 Step 3: Successfully login in gluu server and standing at passport to redirect user to ADFS IDP
-![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/2.png?raw=true)
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/3.png?raw=true)
 
 
 
