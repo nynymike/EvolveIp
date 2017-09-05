@@ -1,0 +1,14 @@
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2017:16:40:40 +0000] \"GET /passport/token HTTP/1.1\" 200 201 \"https://cee.gluu.info/oxauth/auth/passport/passport-login\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36\"","timestamp":"2017-09-04T16:40:40.841Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:40:40.886Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-09-04T16:40:40.886Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:40:40.886Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-09-04T16:40:40.886Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:40:40.886Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2017:16:40:40 +0000] \"GET /passport/auth/saml_proxy/token/config/config2 HTTP/1.1\" 302 0 \"https://cee.gluu.info/oxauth/auth/passport/passport-login\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36\"","timestamp":"2017-09-04T16:40:40.907Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:41:38.610Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-09-04T16:41:38.610Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:41:38.610Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-09-04T16:41:38.610Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-09-04T16:41:38.610Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-09-04T16:41:38.756Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2017:16:41:38 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?execution=e1s1&_eventId_proceed=1\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36\"","timestamp":"2017-09-04T16:41:38.758Z"}

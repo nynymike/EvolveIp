@@ -1,0 +1,15 @@
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:11:59.165Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-08-23T16:11:59.166Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:11:59.166Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-23T16:11:59.166Z"}
+{"level":"info","message":"STATE==>stpara","timestamp":"2017-08-23T16:11:59.167Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:11:59.167Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Aug/2017:16:11:59 +0000] \"GET /passport/auth/saml_proxy/token/config/config2/state/stpara HTTP/1.1\" 302 0 \"-\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-23T16:11:59.191Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:12:09.661Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-08-23T16:12:09.661Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:12:09.661Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-23T16:12:09.662Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-23T16:12:09.662Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-23T16:12:09.662Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-08-23T16:12:09.769Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Aug/2017:16:12:09 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?execution=e1s1&_eventId_proceed=1\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-23T16:12:09.773Z"}

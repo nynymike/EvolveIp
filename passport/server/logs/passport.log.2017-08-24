@@ -1,0 +1,60 @@
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:11.282Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-08-24T10:20:11.282Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:11.282Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:20:11.283Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:20:11.283Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:11.283Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:20:11 +0000] \"GET /passport/auth/saml_proxy/token/config/config2 HTTP/1.1\" 302 0 \"-\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:20:11.316Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:22.711Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-08-24T10:20:22.712Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:22.712Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:20:22.712Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:20:22.712Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:20:22.712Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-08-24T10:20:22.848Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:20:22 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?execution=e1s1&_eventId_proceed=1\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:20:22.853Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:15.919Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-08-24T10:22:15.919Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:15.920Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:22:15.920Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:22:15.920Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:15.920Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:22:15 +0000] \"GET /passport/auth/saml_proxy/token/config/config2 HTTP/1.1\" 302 0 \"https://192.168.200.95/\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:22:15.924Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:22:16.291Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-08-24T10:22:16.426Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:22:16 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZFBb8IwDIX%2FSpU7TRqNlUVQxMZhSEwg2u2wC0pTQ6O1SReniP37ZTAkJk0cHT%2F7%2BXsZT49tEx3AobZmQpKYkWk2Rtk2nZj1vjYb%2BOwBfRRkBsWpMSG9M8JK1CiMbAGFVyKfvSwFj5nonPVW2YZEi%2FmEbNPRSCX3Ca8qSBmrhglPGYneLoZhIggRe1gY9NL48MSSdMBGA35XJExwLpJh%2FMDZO4nWv6sftam02d%2B%2BozyLUDwXxXqwXuUFiWaI4HwwfrIG%2BxZcDu6gFbxulhNSe9%2BhoFQBxPum72NtdpZ2ErGzzlMZ0qA%2F%2FNtAePyiSjZNKdUHVdbs9J6TaB5y0kb6E9j%2F23TV0TC%2B0w3Qn0s53UClHShP83xFzsmLUx7uKvLbpPJCRbKLK3b8yhVrXZa2AV%2BP6ZVBdq7%2BfnT2DQ%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=TN%2FoT9pZA3rgRNMsG78Wv2eZUZeizfRaoWpp7%2FVFncAEcNSEjLJlZcf720tvZDmLLHWOLfCKXNTm08U0SAsgm8TST%2F8PiaiiZORxF454A2YmZlBTP0d7QFG%2BQIFqiuBokznvj5PoJ7jL0aNJ1SRbR6T0pr5G%2BVEnOvsillsRI0HmwsVrbof1lUVbkoUKuwezUqeiITdFQOq1ne2NlEu6PQDZqqp8B60Is9kdX4TTvTYByCGQzG6nZEVUiuo%2FSTzs%2B90POPGfgzprch%2FgWc1unjQkIw94rI7aV5fnU1oUPe3eCWn49SeNIe5W21J%2FwMqu%2B91LEewbG05cFAa92GogUw%3D%3D\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:22:16.428Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.591Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-08-24T10:23:03.592Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.592Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:23:03.592Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:23:03.592Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.592Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:23:03 +0000] \"GET /passport/auth/saml_proxy/token/config/config2 HTTP/1.1\" 302 0 \"https://192.168.200.95/\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:23:03.596Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:23:03.816Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-08-24T10:23:03.901Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:23:03 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZHNbsIwEIRfJfKdODF%2FrUWCaDkUiQpE0h56QY5tiFXHTr0Oom9fA0WiUsVxvbM7%2B40n02Ojo4N0oKzJUBonaJpPgDW6pbPO12YjvzoJPgoyA%2FTcyFDnDLUMFFDDGgnUc1rMXpeUxAltnfWWW42ixTxDWy7HbNQX42GaJtWIiIEQAkXvV8MwEYQAnVwY8Mz48JSk417y0CODMk0o6dOkHw8fyQeK1r%2Brn5QRyuzv31FdREBfynLdW6%2BKEkUzAOl8MH62BrpGukK6g%2BLybbPMUO19CxRjLmW8110XK7OzuGUArXUes5AGPvFvA%2BHxG3OmdcX4J%2BbW7NSeoGgeclKG%2BTPY%2F9uUaHEY3ykt8elSgjdSKCe5x0WxQpfk6TkPdxP5fVJ2pUL51RVacuMKtaoqq6WvJ%2FjGIL9Ufz86%2FwE%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=l3Hob66XOb3iarWVpZXnW1HKc8aJWMrLtsAkwy41s58hTW1U95BdnRBNCnNv4Ztetkl1owp%2Fd9eyOcAIQ6QqOTuxXAUQaoaw940aKany2PEvyVsgu%2F41QIbBI%2BPNX%2BV55OStkIufOft438CF22GWjeGlq%2BIAj3rz4cR2DfgMWlBMUt9YbI9%2Fie0zSZcoChRGnB%2F0BwKLWUmK4CqIICJEuTxL57jQBTPoFMIMOIHROEyiQ5KoRStYvA8eqdLozfZQOaDv42eFS9PKy23YmMC5mJAjcRO3s1BuvNEgXcbKxoSaMhS%2F1H7nWR9HdHfVIfx7cFHXTCNPB%2BwbMIySVDntig%3D%3D\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:23:03.904Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"------------------ENTRY POINT------------------------------","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.328Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:24:28 +0000] \"GET /passport/auth/saml_proxy/token/config/config2 HTTP/1.1\" 302 0 \"https://192.168.200.95/\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:24:28.331Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.597Z"}
+{"level":"info","message":"------------------CALL BACK------------------------------","timestamp":"2017-08-24T10:24:28.597Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.598Z"}
+{"level":"info","message":"CONFIG==>config2","timestamp":"2017-08-24T10:24:28.598Z"}
+{"level":"info","message":"STATE==>undefined","timestamp":"2017-08-24T10:24:28.598Z"}
+{"level":"info","message":"-----------------------------------------------------------","timestamp":"2017-08-24T10:24:28.598Z"}
+{"level":"info","message":"User authenticated withsaml-proxyStrategy with userid: snehalshahdevcee","timestamp":"2017-08-24T10:24:28.682Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [24/Aug/2017:10:24:28 +0000] \"POST /passport/auth/saml_proxy/callback/config2 HTTP/1.1\" 302 702 \"https://cee.gluu.info/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZFBb8IwDIX%2FSpU7TQl0sIgWsXEYEhOIdjvsgtLUpdFK0sUpYv9%2BAYbEpImj42c%2Ffy%2BT6XHfBAewqIxOSD%2BMyDSdoNg3LZ91rtYb%2BOoAXeBlGvm5kZDOam4EKuRa7AG5kzybvS45CyPeWuOMNA0JFvOEbEfxQwxQVvGoioHJohqOByR4vxr6CS9E7GCh0Qnt%2FFPUH%2FWicY8N837E2ZCzcThgjx8kWP%2BuflK6VHp3%2F47iIkL%2Bkufr3nqV5SSYIYJ13vjZaOz2YDOwByXhbbNMSO1ci5xSCRDumq4Lla4MbQVia6yjwqdBT%2FxbT3j8plI0TSHkJ5VGV2rHSDD3OSkt3Bns%2F22qbKkfr1QD9HQpoxsolQXpaJatyCV5fs7D3kR%2Bn1RcqUh6dcWW3bhirYrCNODqCb0xSC%2FV349OfwA%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=n5SPaqZtcXdCSxgMUQ3LGm8%2F8cxFDwYS7iXKCWeH2U4%2Bcw1MUU6uEuVQ5duXy6SAq28%2Fypl%2FZFZDtcSITNm%2Fqwu8UOsdyZhuaxUrCDUwAecR7vE%2BP7373jFMDwUP%2BbUeNKUqOmCE5pevf7gy6hj7WvgKTlYrcQCWt8d43JzAegAyEpxbx1HxAnEt5YQ5ZsR1MbJGhaHP9YRHnbgwPIzPLKCRKQKcmEHacB0lGrtHtYmxB6wcTHW6JdhWdOfFuBxGRawleB7v6XIgG%2FQs3I7LdttnLyPJqJ3nSOX8LA%2F5SfnGxLyiaOP5%2F%2FD8%2Fpa1mT5wTl5uVsGDxAeqzWX0eyFLnA%3D%3D\" \"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36\"","timestamp":"2017-08-24T10:24:28.683Z"}
