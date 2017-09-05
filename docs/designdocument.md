@@ -4,11 +4,11 @@
 I have three virtual machine to have complete setup as following:
 ```        
       1)  Gluu Server:
-           Installed Gluu server in Ubuntu 14.04
+           Install Gluu server in Ubuntu 14.04
            Host Name: https://cee.gluu.info/
 
       2)  ADFS:
-	   Installed and configured ADFS in Windows Server 2012 R2 and the 
+	   Install and configured ADFS in Windows Server 2012 R2 and the 
            Host Name: https://server.snehal.com/adfs/ls/idpinitiatedsignon 
 
       3)  RP (Client):
