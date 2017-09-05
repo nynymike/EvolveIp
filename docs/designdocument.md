@@ -3,7 +3,7 @@
 ## Installation: 
 I have three virtual machine to have complete setup as following:
 ```        
-	    1)  Gluu Server:
+      1)  Gluu Server:
           Installed Gluu server in Ubuntu 14.04
           Host Name: https://cee.gluu.info/
 
@@ -14,6 +14,8 @@ I have three virtual machine to have complete setup as following:
       3)  RP (Client):
 	        Host Name: https://192.168.200.95/implicit-test.html
 ```
+
+
 
 ## Prerequisite - Configurations (Gluu Server):
 
@@ -31,12 +33,16 @@ I have three virtual machine to have complete setup as following:
 
 Sample Data: https://www.evernote.com/shard/s517/sh/2ef93894-c371-4acd-a4cb-b740b6d7b2af/df0dd3b289fc2b9c95499862768b79f7
 
+
+
 ## Prerequisite - Configurations (ADFS):
 - Add relying party.
 
 - Add relying party certificate 
 
 - Attribute mapping of relying party with ADFS.
+
+
 
 ## Prerequisite - Changes in passportjs(GLUU):
 
@@ -52,11 +58,15 @@ https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/routes/inde
 - Read Ox-Trust Json Data
 https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/auth/saml_proxy.js#L8
 
+
+
 ## Testing:
 
 Step 1: Standing on SP with acr_value=saml_proxy
 Step 2: Login in Gluu Server
 Step 3: Successfully login in gluu server and standing at passport to redirect user to ADFS IDP
+
+
 
 ## Logs:
 
@@ -64,8 +74,13 @@ Step 3: Successfully login in gluu server and standing at passport to redirect u
 
 - Successfully able to see the logs of passportjs(GLUU) for "saml-proxy"
 	1) Entry Endpoint Log
+	 https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/logs/passport.log.2017-09-04#L3	
 	2) Callback Endpoint Log
+	https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/logs/passport.log.2017-09-04#L9
 	3) Callback Response Log
+	https://github.com/snehaldkshah/EvolveIp/blob/master/passport/server/logs/passport.log.2017-09-04#L13
+
+
 
 ## ISSUE:
 
