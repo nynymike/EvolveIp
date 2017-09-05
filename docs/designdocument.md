@@ -4,15 +4,15 @@
 I have three virtual machine to have complete setup as following:
 ```        
       1)  Gluu Server:
-          Installed Gluu server in Ubuntu 14.04
-          Host Name: https://cee.gluu.info/
+           Installed Gluu server in Ubuntu 14.04
+           Host Name: https://cee.gluu.info/
 
       2)  ADFS:
-	        Installed and configured ADFS in Windows Server 2012 R2 and the 
-          Host Name: https://server.snehal.com/adfs/ls/idpinitiatedsignon 
+	   Installed and configured ADFS in Windows Server 2012 R2 and the 
+           Host Name: https://server.snehal.com/adfs/ls/idpinitiatedsignon 
 
       3)  RP (Client):
-	        Host Name: https://192.168.200.95/implicit-test.html
+	   Host Name: https://192.168.200.95/implicit-test.html
 ```
 
 
@@ -24,7 +24,7 @@ I have three virtual machine to have complete setup as following:
 - Add New Interception Script in Gluu Server as "passport_saml_proxy".
 
 - Add new strategy for SAML-PROXY as "saml_proxy".
-
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/Saml_Strategy.png?raw=true)
 
 - Add JSON in OxTrust "saml_proxy" strategy as Data (Mutiple Idp’s as JSON)
 1) Certificate (IDP)
@@ -37,10 +37,12 @@ Sample Data: https://www.evernote.com/shard/s517/sh/2ef93894-c371-4acd-a4cb-b740
 
 ## Prerequisite - Configurations (ADFS):
 - Add relying party.
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/ADFS_1.png?raw=true)
 
 - Add relying party certificate 
 
 - Attribute mapping of relying party with ADFS.
+![](https://github.com/snehaldkshah/EvolveIp/blob/master/docs/img/ADFS-2.png?raw=true)
 
 
 
