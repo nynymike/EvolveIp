@@ -31,7 +31,7 @@ I have three virtual machine to have complete setup as following:
 2) Config Parameter (Identify the IDP)
 3) Entry Endpoint    (IDPs Entrypoint)
 
-Sample Data: https://www.evernote.com/shard/s517/sh/2ef93894-c371-4acd-a4cb-b740b6d7b2af/df0dd3b289fc2b9c95499862768b79f7
+Sample Data: https://github.com/snehaldkshah/EvolveIp/blob/master/docs/oxtrust-idp-json-data.txt
 
 
 
