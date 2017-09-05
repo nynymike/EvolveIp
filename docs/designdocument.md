@@ -89,7 +89,7 @@ Step 3: Successfully login in gluu server and standing at passport to redirect u
 
 
 
-## ISSUE:
+## Need Help:
 
 We have a list of Idp’s data as Json in Gluu Server as "saml_proxy" strategy. I’m able to get this data in passportjs. 
 
