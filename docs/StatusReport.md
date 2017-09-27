@@ -1,19 +1,11 @@
-Basic Flow:  
-Openid-implicit-client --> Gluu Server --> ADFS
+We have successfully achieved redirection to the External IDP (ADFS) from the Gluu Server.
 
-Steps:
-1) Redirect user to external IDP from GLUU. 
-    a) We should have stored all IDP details already in GLUU & UNIQ KEY associated with the all IDP       
-    b) Get that UNIQ KEY in passport / interception script (GLUU)
-    
- #1.a: We have stored all IDP details with UNIQ KEY in gluu as new strategy in passport. You can have a look here 
- https://github.com/snehaldkshah/EvolveIp/blob/master/docs/designdocument.md#prerequisite---configurations-gluu-server
+We now have the following pending tasks:
+1) Login into ADFS with passport-saml 
+--> We have already achieved this on a separate project, so not much risk.
 
- #1.b:
+2) Get the SAML response at GLUU (Insert/Update user into LDAP Server using interception script) 
+--> once we get the SAML response on Gluu (passport), we need to insert/update the user details into the Gluu Server. Likewise, we have achieved this on a separate project, so not much risk here either.
 
-
-
-
-
-
-
+3) Log the user in to GLUU / Redirect User to RP 
+--> We need to redirect the User to the RP after #2 with data. We may need to create sessions in order to identify where the request was actually initiated. This we need to do a bit of digging on.
