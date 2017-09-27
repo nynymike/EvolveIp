@@ -1,0 +1,34 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sp2.gluu.info/shibboleth">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+    <md:KeyDescriptor>
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIDBjCCAe4CCQD/wOqq5mPG/TANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJB
+VTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0
+cyBQdHkgTHRkMB4XDTE3MDcyMTE1MzAzNFoXDTE4MDcyMTE1MzAzNFowRTELMAkG
+A1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0
+IFdpZGdpdHMgUHR5IEx0ZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ANntBnkia76Di4nhcF0qu53EQj8YYdSy/cN6H70lZLfiP+JVix34k6GTaRxqGLun
+x9QcD223/a2/9VS4QKXLsOdAh3X4G+K9bwgMgjWsuP9F0BOZykgi4wCgAR6e3rTy
+WE502uz6/ySHCSWKM8TuVwBXXUOX4fvzCyFGbXTUlb7joUTkRi+zg7ITlGkZcY0f
+Bq1Q3cKNC5VUklF83E+hlk4G04elXWss/t9dQADt0Cu4J36bxIFqddTqPpHdpZSl
+F5QuuWNcTDMLNHq2r4XCQTkv/pKAvSAK5y3Xr4e9M2EmBDtfwwps3BErS3jwGn+F
+Qt7OZx/sd46MxNXuSGPJ4lsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAgOFhXBjf
+24uFwaZBHx7NYYdjgUpUUeDhGYjykPK3OLndRS/VzNeffCdtt1FxtseU9Sl+fcEv
+sRIayseayAKdjWAx6NwwexWCybcIhaZs4D3lskf2L2cOV/RmegwZ2hlulCoaqMB3
+R57UUA9Xpoid2tD3DlYGJdn6WOso+7HypRxgyvtTwNDt0apFvyKy0IqMQJIO96bU
+g4rIs3AoIfzcZPF01xEsnnRsa6bAmAUotGJd4CUpIVLvE8W0UbtQqT2yvQVRnIrZ
+vdh+NWAWjrBk8NPL3q0yLc7ZetCTAx2CT3baJ3trT9HhzpHS6iDkEkADoI1Je7sO
+Le5xTvydoIJY1w==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp2.gluu.info/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://sp2.gluu.info/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://sp2.gluu.info/Shibboleth.sso/SAML2/ECP" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://sp2.gluu.info/Shibboleth.sso/SAML/POST" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gluu.local.info/passport/auth/saml_proxy/callback" index="5"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>
