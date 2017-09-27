@@ -1,6 +1,7 @@
 We have successfully achieved redirection to the External IDP (ADFS) from the Gluu Server.
 
 We now have the following pending tasks:
+```
 1) Login into ADFS with passport-saml 
 --> We have already achieved this on a separate project, so not much risk.
 
@@ -9,3 +10,4 @@ We now have the following pending tasks:
 
 3) Log the user in to GLUU / Redirect User to RP 
 --> We need to redirect the User to the RP after #2 with data. We may need to create sessions in order to identify where the request was actually initiated. This we need to do a bit of digging on.
+```
