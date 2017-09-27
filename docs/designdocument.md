@@ -11,7 +11,7 @@ I have three virtual machine to have complete setup as following:
 	   Install and configured ADFS in Windows Server 2012 R2 and the 
            Host Name: https://server.snehal.com/adfs/ls/idpinitiatedsignon 
 
-      3)  Openid-implicit-client (Client):
+      3)  Openid-implicit-client (Client): ![](https://github.com/GluuFederation/openid-implicit-client)
 	   Host Name: https://192.168.200.95/implicit-test.html
 ```
 
